@@ -1,0 +1,15 @@
+{
+  "name": "s2-brand-trust-evaluator",
+  "version": "1.0.0",
+  "description": "A deterministic, local NLP algorithmic engine that evaluates brand data completeness (focusing on ESG and Patents) to generate S2-Trust Badges. No external network I/O required.",
+  "main": "handler.py",
+  "scripts": {
+    "start": "python3 handler.py"
+  },
+  "openclaw": {
+    "extensions": ["openclaw.plugin.json"],
+    "compat": { "pluginApi": ">=3.0.0" }
+  },
+  "author": "Miles Xiang & Qianjia Brand Lab",
+  "license": "MIT"
+}

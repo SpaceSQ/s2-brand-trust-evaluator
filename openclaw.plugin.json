@@ -1,0 +1,21 @@
+{
+  "id": "s2-brand-trust-evaluator",
+  "pluginId": "s2-brand-trust-evaluator",
+  "version": "1.0.0",
+  "type": "native-code",
+  "entry": "handler.py",
+  "runtime": "python3",
+  "capabilities": {
+    "data_verification": true
+  },
+  "permissions": {
+    "network": [], 
+    "tools": [
+      "evaluate_s2_brand_trust_score"
+    ]
+  },
+  "mcp_config": {
+    "auto_discovery": true,
+    "protocol_version": "2026.3.26"
+  }
+}
