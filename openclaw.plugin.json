@@ -8,16 +8,16 @@
   "capabilities": {
     "data_verification": true
   },
-  "config": {
+  "configSchema": {
     "type": "object",
     "properties": {
       "algorithm_version": {
         "type": "string",
-        "description": "S2-Trust evaluation algorithm version / 品牌生态学防伪算法版本",
+        "description": "S2-Trust evaluation algorithm version",
         "default": "v1.0"
       }
     },
-    "additionalProperties": false
+    "required": []
   },
   "permissions": {
     "network": [], 
